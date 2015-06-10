@@ -1,22 +1,14 @@
-<!--
 <table>
     <thead>
         <tr>
-            <th field="planet" width="33%">Planet</th>
-            <th field="alienPop" width="33%">Aliens</th>
-            <th field="humanPop" width="33%">Humans</th>
+            <th field="select" width="5%">Select</th>
+            <th field="type" width="5%">Type</th>
+            <th field="address" width="90%">Address</th>
         </tr>
     </thead>
     <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
-        <td>94</td>
-    </tr>
-    <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
-        <td>94</td>
+        <td><button data-dojo-type="dijit/form/Button" data-dojo-attach-event="click:zoomTo">Zoomto</button></td>
+        <td>{{result.type}}</td>
+        <td>{{result.address}}</td>
     </tr>
 </table>
--->
-<p>{{result.status}}</p>
