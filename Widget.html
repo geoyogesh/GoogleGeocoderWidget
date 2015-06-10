@@ -1,6 +1,8 @@
-<div>
+<div class="claro">
 
-  <h3>${nls.widgetTitle}</h3>
-  <p>${nls.description}</p>
-
+    <h3>${nls.widgetTitle}</h3>
+    <p>${nls.description}</p>
+    <input type="text" name="address" value="1600 Amphitheatre Parkway, Mountain View, CA" data-dojo-type="dijit/form/TextBox" data-dojo-props="trim:true, propercase:true" data-dojo-attach-point="txtaddress" />
+    <button data-dojo-type="dijit/form/Button" data-dojo-attach-event="click:findAddress">Find Address</button>
+    <div data-dojo-attach-point="geocodeResultDiv"></div>
 </div>

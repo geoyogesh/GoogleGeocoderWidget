@@ -1,3 +1,5 @@
 {
-  "widgetName": "GoogleGeocoderWidget"
+  "widgetName": "GoogleGeocoderWidget",
+    "google_api_url":"",
+    "google_api_key":""
 }
